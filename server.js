@@ -13,7 +13,7 @@ app.use(express.json());
 
 //default page to check if backend is connected and deployed properly
 app.get('/', (req, res) => {
-    res.send('Backend is operational');
+    res.send('Backend is operational, use /api/ for the routes');
 })
 
 //main route being used
